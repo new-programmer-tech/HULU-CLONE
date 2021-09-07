@@ -49,6 +49,7 @@ ul {
 #header .header-content {
   display: flex;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   margin-top: 30px;
 }
@@ -59,7 +60,7 @@ ul {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
+  
 }
 
 img {
@@ -70,6 +71,13 @@ img {
   width: 300px;
   margin: 20px 0;
 }
+
+
+h4{
+    color:#00ED82;
+    font-size: 13.5px;
+}
+
 
 .header-content .header-text-1{
     font-size:22px;
@@ -86,4 +94,76 @@ button.btn.btn-header {
     border-radius: 6px;
     border: none;
     cursor:pointer;
+    font-size:15px;
+    font-weight: 600;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
 
+button.btn.btn-header:hover
+{
+    opacity: 0.8;
+}
+
+.small-text {
+    font-size: 10px;
+    color: #ccc;
+    margin-top: 24px;
+}
+
+/* SUB HEADER */
+
+.sub-header {
+    display:grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    grid-gap:50px;
+    padding: 40px 25px;
+    align-items: center;
+    background: linear-gradient(
+        318.68deg, 
+        #0f495c 0%,
+        #0d3640 49.72%,
+        #08141f 100%
+    );
+
+}
+
+.sub-header .end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.end-btn {
+    padding: 15px 20px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    background: none ;
+    border-color: #fff;
+}
+
+button.end-btn:hover{
+    opacity: 0.8            ;
+}
+
+
+/* MEDIA QUERIES */
+
+/* ANYTHING THING UNDER THIS WILL WORK:- */
+
+@media(max-width:768px)
+{
+    #header .logo{
+        width:190px;
+    }
+
+    .header-content{
+        padding:0 24px;
+    }
+}
