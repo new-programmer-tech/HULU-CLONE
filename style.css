@@ -266,7 +266,7 @@ button.end-btn:hover {
 .live-content {
   position: absolute;
   top: 110px;
-  left: 340px;
+  left: 190px;
 }
 
 .live-content .text-xl {
@@ -275,15 +275,23 @@ button.end-btn:hover {
 }
 
 .live-content .para {
-  font-size: 40px;
-  max-width: 598px;
+  font-size: 33px;
+  width: 576px;
+  line-height: 1.6;
 }
 
 .live-content .small {
   font-size: 10px;
+  margin-top:1rem;
 }
-/* MEDIA QUERIES */
 
+
+
+
+
+
+
+/* MEDIA QUERIES */
 /* ANYTHING THING UNDER THIS WILL WORK:- */
 
 @media (max-width: 768px) {
@@ -292,6 +300,7 @@ button.end-btn:hover {
     font-size: 15px;
     color: #fff;
   }
+
   #header .logo {
     width: 190px;
   }
@@ -308,10 +317,6 @@ button.end-btn:hover {
   }
 
   .content {
-    /* min-width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -392,7 +397,7 @@ button.end-btn:hover {
       padding-right: 38px;
     }
 
-    
+
 
 
 }
