@@ -288,9 +288,32 @@ button.end-btn:hover {
   margin-top:1rem;
 }
 
+/* FOOTER */
 
+footer{
+  background:#EBEDF2;
+  height:60vh;
+  width:100vw;
+}
 
+.links ul li{
+  color:#08141f;
+}
 
+ul {
+  display: flex;
+  justify-content: flex-end;
+  /* border: 4px solid rgb(241, 0, 0); */
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top:4rem;
+}
 
 
 
