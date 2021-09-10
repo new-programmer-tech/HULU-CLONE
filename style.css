@@ -179,28 +179,31 @@ button.end-btn:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
-  /* border:4px solid white; */
+  border:4px solid white; 
   padding: 20px 110px;
   margin-top: 2rem;
   position: relative;
 }
 
-.content img {
-  width: 271px;
-  cursor: pointer;
+.content >div{
+  height: 500px;
+  width:300px;
 }
 
-
-.cover-text-1 {
-  position: absolute;
-  top: 6%;
-  left: 9%;
+.content .cover-1{
+  background:url(./img/cover-1.jpg) no-repeat center center/cover;
 }
 
-.cover-text-2{
-  position: absolute;
-  top: 6%;
-  right:57%;
+.content .cover-2{
+  background:url(./img/cover-2.jpg) no-repeat center center/cover;
+}
+
+.content .cover-3{
+  background:url(./img/cover-3.jpg) no-repeat center center/cover;
+}
+
+.content .cover-4{
+  background:url(./img/cover-4.jpg) no-repeat center center/cover;
 }
 
 
