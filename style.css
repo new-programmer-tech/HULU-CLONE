@@ -285,19 +285,19 @@ button.end-btn:hover {
 
 .live-content .small {
   font-size: 10px;
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 
 /* FOOTER */
 
-footer{
-  background:#EBEDF2;
-  height:60vh;
-  width:100vw;
+footer {
+  background: #ebedf2;
+  height: 60vh;
+  width: 100vw;
 }
 
-.links ul li{
-  color:#08141f;
+.links ul li {
+  color: #08141f;
 }
 
 ul {
@@ -306,16 +306,14 @@ ul {
   /* border: 4px solid rgb(241, 0, 0); */
   display: flex;
   flex-direction: column;
+  margin-top: 9rem;
 }
 
 .links {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top:4rem;
 }
-
-
 
 /* MEDIA QUERIES */
 /* ANYTHING THING UNDER THIS WILL WORK:- */
@@ -397,39 +395,53 @@ ul {
     background: url(./img/live-sports-small.jpg) no-repeat center center/cover;
   }
 
-
   .live-content {
     position: absolute;
     top: 49px;
     left: 23px;
-}
+  }
 
-.live-content .text-xl {
-  font-size: 54px;
-  font-weight: bold;
-  width: 98%;
-  text-align: center;
-}
+  .live-content .text-xl {
+    font-size: 54px;
+    font-weight: bold;
+    width: 98%;
+    text-align: center;
+  }
 
-.live-content .para {
-  font-size: 17px;
-  width: 384px;
-  line-height: 1.6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  text-align: inherit;
-}
+  .live-content .para {
+    font-size: 17px;
+    width: 384px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: inherit;
+  }
 
-.live-content .small {
-  font-size: 10px;
-  margin-top: 1rem;
-  max-width: 371px;
-  text-align: center;
-}
+  .live-content .small {
+    font-size: 10px;
+    margin-top: 1rem;
+    max-width: 371px;
+    text-align: center;
+  }
 
+  .links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 3px;
+    margin-left: 10px;
+  }
 
-
+  footer {
+    height: 65vh;
+  }
 }
